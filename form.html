@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+    
+        <form>
+       
+            <span>firstname:</span>
+            <input type="text" placeholder="first name">
+            <br> <br>
+            <span>lastname:</span>
+            <input type="text" placeholder="last name">
+            <br> <br>
+            <label for="Male">male</label>
+            <input type="radio"name="gender" id="Male">
+
+            <label for="Female">female</label>
+            <input type="radio"name="gender" id="Female">
+            <label for="Other">other</label>
+            <input type="radio"name="gender" id="Other">
+            <br> <br>
+            <span>date of birth</span>
+            <input type="date">
+            <br> <br>
+            <span>email:</span>
+            <input type="email" placeholder="email">
+            <br> <br>
+            <span>phone:</span>
+            <input type="tel" placeholder="phone number" value="+91" >
+            <br> <br>
+        </form>
+    </fieldset>
+    <fieldset>
+        
+            <legend>education</legend>
+        <form>
+            <span>school name</span>
+            <input type="text"placeholder="school name ">
+            <br> <br>
+            <span>classes:</span>
+            <input type="text" placeholder="enter class">
+            <br> <br>
+            <span>stream</span>
+            <select>
+                <option value="science">science</option>
+                <option value="arts">arts</option>
+                <option value="commerce">commerce</option>
+            </select>
+            <br> <br>
+            <span>Marksheet</span>
+            <input type="file">
+        </form>
+    </fieldset>
+    <button type="submit">Submit</button>
+</body>
+</html>
