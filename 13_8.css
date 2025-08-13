@@ -6,6 +6,7 @@
 }
 #container{
     border: 2px solid green;
+    position:relative
 }
 .child1{
     position:relative;
@@ -26,4 +27,15 @@
     position:sticky;
   
     top: 0px;
+}
+div {
+    border: 2px solid blue;
+    width: 200px;
+    padding: 20px;
+}
+span {
+    border: 2px solid blue;
+    width: 200px;/*it does not work on inline elements*/
+    padding: 20px;
+    display:inline-block;/* it makes inline element to block and block element to inline element*/
 }

@@ -1,0 +1,13 @@
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    flex-direction: column;
+}
+#container{
+    border: 2px solid green;
+    display: flex;
+    height: 90vh;
+    flex-direction: row;
+    flex-direction: row-reverse;
+}
