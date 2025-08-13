@@ -7,3 +7,23 @@
 #container{
     border: 2px solid green;
 }
+.child1{
+    position:relative;
+    left:200px;
+    top: 100px;
+}
+.child2{
+    position:absolute;
+    left:0px;
+    right:0px;
+}
+.child3{
+    position:fixed;
+    left:400px;
+    top: 200px;
+}
+.child4{
+    position:sticky;
+  
+    top: 0px;
+}
