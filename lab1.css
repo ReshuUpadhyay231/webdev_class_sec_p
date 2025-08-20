@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #fdfbf7;
+  color: #111;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ddd;
+  background: #fdfbf7;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #111;
+  font-size: 0.95rem;
+}
+
+.nav-links .btn {
+  padding: 8px 18px;
+  border-radius: 20px;
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.btn-dark {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 25px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-art {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.hand {
+  width: 180px;
+  height: 100px;
+  background: green;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  border-radius: 10px;
+}
+
+.stars {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  font-size: 2rem;
+  color: black;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  margin: 5px 10px;
+  text-decoration: none;
+  color: #555;
+}
+.flower{
+    flex-direction: column;
+
+}
