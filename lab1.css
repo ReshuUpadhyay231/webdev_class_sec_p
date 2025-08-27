@@ -112,5 +112,7 @@ img{
 }
 .flower{
     flex-direction: column;
-
+    display: flex;
+    align-self: auto;
+    align-items: stretch;
 }
